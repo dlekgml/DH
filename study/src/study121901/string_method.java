@@ -1,6 +1,7 @@
 package study121901;
 
 import java.util.Arrays;
+import java.util.Scanner;
 
 public class string_method {
 
@@ -8,13 +9,13 @@ public class string_method {
 		// TODO Auto-generated method stub
 
 		String word="i like banana chacha";
-		
+	
 		// 1. 문자열에서 특정 문자 추출 - charAt()
 		char ch = word.charAt(2);
 		System.out.println(ch);
 		
 		Scanner scan =  new Scanner(System.in);
-		ch = scan.next().charAT(0);
+		ch = scan.next().charAt(0);
 		System.out.println(ch);
 		
 		// 2. 문자열 비교 - equals()
@@ -23,7 +24,7 @@ public class string_method {
 		else
 			System.out.println("같지않다");
 		
-		// 3. 문자열을 byte로 변환 - getBytes()
+		// 3. 문자열을 byte로 변환 - getBytes() - 파일 불러오기
 		byte[] code = word.getBytes();
 		System.out.println(Arrays.toString(code));
 		
@@ -32,7 +33,7 @@ public class string_method {
 		System.out.println(k);
 		int banana = word.indexOf("banana");
 		
-		int a5 = word.indexOf
+		int a5 = word.indexOf('a',10);
 		System.out.println(a5);
 		int cha = word.indexOf("ch",15);
 		System.out.println(cha);
