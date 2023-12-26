@@ -40,7 +40,7 @@ public class java_method {
 		list_print(mylist);
 		
 		System.out.println("가수 또는 노래제목 : ");
-		String.keyword = scan.nextLine();
+		String keyword = scan.nextLine();
 		song_search(keyword,mylist);
 	}
 

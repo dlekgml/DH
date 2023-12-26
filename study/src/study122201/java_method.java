@@ -18,8 +18,8 @@ public class java_method {
 
 	}
 	static void buy(buyer 다희) {
-		while(true);
-		System.out.println(다희);
+		while(true) {
+			System.out.println(다희);
 		
 		
 		System.out.print("장바구니의 물건들을 결제 하시겠습니까?(y/n) : ");
@@ -29,8 +29,8 @@ public class java_method {
 			break; // 결제 완료 하면 buy 메서드 종료
 		}else { // 결제 보류 - 장바구니에서 빼기
 			다희.basket_remove();
-		}
-			
+			}
+		}		
 	}
 	
 	static void put(buyer 다희) {
